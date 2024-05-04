@@ -11,7 +11,7 @@ const token = 'Discord Bot Token';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
-    console.log(`CODED BY DEVRY!`);
+    console.log(`Mass Direct Messages Created by DeVry`);
 });
 
 client.on('messageCreate', async message => {
